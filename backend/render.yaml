@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: polaris-backend
+    runtime: node
+    rootDir: polaris/backend
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 4000

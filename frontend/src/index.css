@@ -1,0 +1,6 @@
+:root { --bg: #f6f8fb; --card: #ffffff; --ink: #0f2233; --muted: #5b7288; --line: #dfe8f0; --teal: #0e7c9e; --navy: #12395b; --ok: #1a7f4b; --warn: #b3540a; --bad: #b3261e; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--ink); }
+#root { min-height: 100vh; }
+a { color: var(--teal); }
+button, select, input { font: inherit; }
