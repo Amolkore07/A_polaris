@@ -2,7 +2,7 @@ services:
   - type: web
     name: polaris-backend
     runtime: node
-    rootDir: polaris/backend
+    rootDir: backend
     buildCommand: npm install
     startCommand: npm start
     plan: free
